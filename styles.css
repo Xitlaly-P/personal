@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Barlow;
+  src: url(fonts/Barlow-Regular.ttf);
+}
+
+@font-face {
+  font-family: ArchivoNarrow;
+  src: url(fonts/ArchivoNarrow-Regular.ttf);
+}
+
 body {
-  font-family: "Century Gothic", 'Lato', sans-serif;
+  font-family: Barlow;
   background-color: #E4DFDA;
 }
 
@@ -38,8 +48,9 @@ a {
 
 .et-hero-tabs h3,
 .et-slide h3 {
+  font-family: ArchivoNarrow;
   font-size: 1rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
   opacity: 0.6;
 }
 
@@ -115,5 +126,39 @@ a {
   .et-hero-tab {
     font-size: 1rem;
   }
+}
+
+.meimg {
+  height: 13rem;
+  border-radius: 15px;
+  border: 14px solid #FFFFFF;
+}
+
+ul {
+  font-weight: bold;
+  opacity: 0.6;
+  list-style: url("curvedArrow.png");
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #202124;
+  color: white;
+}
+
+.fa-code {
+  background: teal;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
